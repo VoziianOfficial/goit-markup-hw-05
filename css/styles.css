@@ -494,6 +494,8 @@ margin-bottom: 8px;
   line-height: 2;
   letter-spacing: 0.04em;
   color: #ffffff;
+  outline: none;
+  padding: 8px 16px;
 }
 
 .footer-input::placeholder{
@@ -502,9 +504,8 @@ margin-bottom: 8px;
   line-height: 2;
   letter-spacing: 0.04em;
   color: #fff;
-  padding: 8px 16px;
-  
 }
+
 .footer-form-btn {
   display: flex;
   justify-content: center;
@@ -707,7 +708,7 @@ border-color: #4d5ae5;
 }
 
 .modal-text{
-  
+
 }
 
 .policy-link{ 
