@@ -563,6 +563,8 @@ margin-bottom: 8px;
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-open {
@@ -632,6 +634,11 @@ margin-bottom: 8px;
   margin-bottom: 8px;
 }
 
+.modal-textarea{
+  margin-bottom: 16px
+}
+
+
 .modal-input-wrap{
   position: relative;
 }
@@ -643,7 +650,7 @@ margin-bottom: 8px;
   height: 40px;
   background-color: transparent;
   outline: transparent;
-  padding-left: 50px;
+  padding-left: 38px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -661,6 +668,7 @@ border-color: #4d5ae5;
   font-size: 12px;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  line-height: 1.17;
 }
 
 .modal-filed-icon{
@@ -692,7 +700,12 @@ border-color: #4d5ae5;
   border-color: #4d5ae5;
 }
 
-/*<------CHECKBOX------>*/
+/*<------CHECKBOX-POLICY------>*/
+
+.modal-polisy{
+  margin-bottom: 24px;
+
+}
 
 
 .check-text{
@@ -702,7 +715,6 @@ border-color: #4d5ae5;
   color: #8e8f99;
   display: flex;
   align-items: center;
-  margin-bottom: 24px;
 }
 
 
@@ -721,7 +733,7 @@ border-color: #4d5ae5;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: flex;
+  display: inline-flex;
   align-items:center;
   justify-content: center;
   fill: transparent;
